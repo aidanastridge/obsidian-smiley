@@ -1,4 +1,4 @@
-# Obsidian Theme Dev Vault
+# Nutmeg
 
 The purpose of this vault is to aid in theme development by demonstrating and exercising as many features of Obsidian as possible.
 
