@@ -1,34 +1,41 @@
-body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+/*Nutmeg*/
+.theme-light {
+  /*Border*/
+  --border-width: 2px;
+  /*Callout*/
+  --callout-radius: 2px;
+  --callout-title-color: #364d4d;
+  /*Radiuses*/
+  --radius-s:	2px;
+  --radius-m:	2px;
+  --radius-l:	2px;
+  --radius-xl: 2px;
+  /*Code*/
+  --code-background: #383838;
+  --code-normal: #FFFCEC;
+  --code-punctuation: #FFFCEC;
+  --code-value:#FFFCEC;
+  /*Headings*/
+  /*Links*/
+  --link-light:#3D6262;
+  --link-light-hover:#364d4d;
+  /*Base*/
+  --base-light: #9DB4AB;
+  --secondary-light: #8D9D90;
+  --options-focus: #FFFCEC;
+  /*Background*/
+  --background-primary:var(--base-light);
+  --background-primary-alt:var(--base-light-alt);
+  --background-seconday:var(--secondary-light);
+  --background-secondary-alt:var(--secondary-light);
 }
-
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
-	display: none;
+.theme-light h1, .theme-light h2, .theme-light h3, .theme-light h4, .theme-light h5, .theme-light h6 {
+  color: #aeaeae;
+  background-color: #383838;
 }
-
-svg * {
-	stroke-linecap: square;
-	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
+.theme-light a {
+  color: var(--link-light);
 }
-
-.menu {
-	padding: var(--size-2-1);
-}
-
-.menu-item {
-	padding: var(--size-4-1) var(--size-4-2);
-}
-
-.menu-separator {
-	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
-}
+.theme-light a:hover {
+  color: var(--link-light-hover);
+}/*# sourceMappingURL=theme.css.map */

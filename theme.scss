@@ -1,0 +1,54 @@
+/*Nutmeg*/
+
+.theme-light {
+    /*Border*/
+    --border-width: 2px;
+
+    /*Callout*/
+    --callout-radius: 2px;
+    --callout-title-color: #364d4d;
+
+    /*Radiuses*/
+    --radius-s:	2px;
+    --radius-m:	2px;
+    --radius-l:	2px;
+    --radius-xl: 2px;
+
+    /*Code*/
+    --code-background: #383838;
+    --code-normal: #FFFCEC;
+    --code-punctuation: #FFFCEC;
+    --code-value:#FFFCEC;
+
+    /*Headings*/
+    h1, h2, h3, h4, h5, h6 {
+        color: #aeaeae;
+        background-color: #383838;
+    }
+
+    /*Links*/
+    --link-light:#3D6262;
+    --link-light-hover:#364d4d;
+
+    /*Base*/
+    --base-light: #9DB4AB;
+    --secondary-light: #8D9D90;
+    --options-focus: #FFFCEC;
+
+    /*Background*/
+    --background-primary:var(--base-light);
+    --background-primary-alt:var(--base-light-alt);
+    --background-seconday:var(--secondary-light);
+    --background-secondary-alt:var(--secondary-light);
+
+
+
+    a {
+        color: var(--link-light);
+    }
+
+    a:hover {
+        color: var(--link-light-hover);
+    }
+
+}
