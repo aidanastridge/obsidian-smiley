@@ -1,4 +1,4 @@
-## Nutmeg
+## Nutmeg 🍃
 
 ### Thesis
 
