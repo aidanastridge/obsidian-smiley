@@ -1,54 +1,60 @@
 /*Nutmeg*/
 
+:root {
+--light0:rgb(234 225 215);
+--light1:rgb(230 219 208);
+--light2:rgb(220 205 188);
+--light3:rgb(213 195 175);
+}
+
+body {
+    --accent-h: 341; /* --purple #754f5b */
+    --accent-s: 19%;
+    --accent-l: 38%;
+
+    --link-decoration:                none;
+    --link-decoration-hover:          none;
+    --link-external-decoration:       none;
+    --link-external-decoration-hover: none;
+
+    --tag-decoration:                 none;
+    --tag-decoration-hover:           none;
+    --tag-padding-x:                  .5em;
+    --tag-padding-y:                  .2em;
+    --tag-radius:                     .5em;
+
+    --tab-font-weight:                600;
+
+
+    --checkbox-radius:                0;
+
+}
+
 .theme-light {
-    /*Border*/
-    --border-width: 2px;
 
-    /*Callout*/
-    --callout-radius: 2px;
-    --callout-title-color: #364d4d;
+    --color-red-rgb:                 var(--red_x);
+    --color-red:                     var(--red);
+    --color-purple-rgb:              var(--purple_x);
+    --color-purple:                  var(--purple);
+    --color-green-rgb:               var(--green_x);
+    --color-green:                   var(--green);
+    --color-cyan-rgb:                var(--frost1_x);
+    --color-cyan:                    var(--frost1);
+    --color-blue-rgb:                var(--frost3_x);
+    --color-blue:                    var(--frost3);
+    --color-yellow-rgb:              var(--yellow_x);
+    --color-yellow:                  var(--yellow);
+    --color-orange-rgb:              var(--orange_x);
+    --color-orange:                  var(--orange);
 
-    /*Radiuses*/
-    --radius-s:	2px;
-    --radius-m:	2px;
-    --radius-l:	2px;
-    --radius-xl: 2px;
+    --background-primary:            var(--light0);
+    --background-primary-alt:        var(--light1);
+    --background-secondary:          var(--light1);
+    --background-secondary-alt:      var(--light2);
+    --background-modifier-border:    var(--light2);
 
-    /*Code*/
-    --code-background: #383838;
-    --code-normal: #FFFCEC;
-    --code-punctuation: #FFFCEC;
-    --code-value:#FFFCEC;
-
-    /*Headings*/
-    h1, h2, h3, h4, h5, h6 {
-        color: #aeaeae;
-        background-color: #383838;
-    }
-
-    /*Links*/
-    --link-light:#3D6262;
-    --link-light-hover:#364d4d;
-
-    /*Base*/
-    --base-light: #9DB4AB;
-    --secondary-light: #8D9D90;
-    --options-focus: #FFFCEC;
-
-    /*Background*/
-    --background-primary:var(--base-light);
-    --background-primary-alt:var(--base-light-alt);
-    --background-seconday:var(--secondary-light);
-    --background-secondary-alt:var(--secondary-light);
-
-
-
-    a {
-        color: var(--link-light);
-    }
-
-    a:hover {
-        color: var(--link-light-hover);
-    }
+    --h1-color:#844969;
+    --h2-color:#725A67;
+    --h3-color:#725A67;
 
 }
