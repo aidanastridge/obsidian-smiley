@@ -1,16 +1,58 @@
-# Nutmeg
+## Nutmeg
 
-The purpose of this vault is to aid in theme development by demonstrating and exercising as many features of Obsidian as possible.
+### Thesis
 
-This vault is currently incomplete. Please help update it by submitting pull requests.
+### Index
 
-## Core Plugins
-Notes on styling core plugins distributed with Obsidian
-- [[Search]]
-## Community Plugins
-Notes on styling additional plugins provided by the Obsidian community
-- [[Kanban]]
+[Installation](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#installation)
+<br>
+[References](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#references)
+<br>
+[Colors](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#colors)
+<br>
+[Classes](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#classes)
+<br>
+[Developers](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#developers)
+<br>
+[License](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#license)
+<br>
+[Disclaimer](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#disclaimer)
 
-- - -
-## Guidelines for contributing
-- Keep plugins turned off by default
+#### Installation
+
+Coming soon!
+
+#### Thesis
+
+#### References
+
+[Obsidian Themeing Resources.](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers)
+
+#### Colors
+
+|Light theme|Dark theme|Description|
+|--|--|--|
+|--|--|--|
+
+#### Classes
+
+|Class|Description
+|--|--|
+|--|--|
+
+#### Developers
+
+Aidan Astridge – [@aidanastridge](https://github.com/aidanastridge)
+
+#### License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aidanastridge/obsidian-rockford/blob/master/LICENSE) file for details.
+
+#### Disclaimer
+
+This theme is provided as-is without any warranties or guarantees. By using this theme, you acknowledge that:
+
+The theme is designed for personal use and may not be suitable for all users or setups.
+I am not responsible for any issues that may arise from the use of this theme, including but not limited to data loss, software conflicts, or any other problems.
+It is recommended to back up your Obsidian vault before applying any new themes or modifications.
+Feel free to customize the theme to suit your preferences, but please do so at your own risk!
