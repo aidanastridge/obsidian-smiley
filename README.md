@@ -4,26 +4,6 @@ The purpose of this vault is to aid in theme development by demonstrating and ex
 
 This vault is currently incomplete. Please help update it by submitting pull requests.
 
-- - -
-## Content
-Examples and notes on styling Markdown content provided by users.
-- [[Callouts]]
-- [[Diagrams]]
-- [[Embeds]]
-- [[Footnotes]]
-- [[Headings]]
-- [[Lists]]
-- [[Markdown]]
-- [[Math]]
-- [[Optional elements]]
-- [[Properties]]
-- [[Tables]]
-## Obsidian UI
-Notes on styling parts of the Obsidian app
-- [[Mobile]]
-- [[Modals and Prompts]]
-- [[Theme Colors]]
-- [[Tooltips and Notices]]
 ## Core Plugins
 Notes on styling core plugins distributed with Obsidian
 - [[Search]]
