@@ -4,11 +4,15 @@
   --light1:rgb(230 219 208);
   --light2:rgb(220 205 188);
   --light3:rgb(213 195 175);
+  --brown0: rgb(90, 29, 23);
+  --brown1: rgb(134, 44, 34);
+  --brown2: rgb(163, 42, 29);
+  --green:#2E5A27;
 }
 
 body {
-  --accent-h: 341; /* --purple #754f5b */
-  --accent-s: 19%;
+  --accent-h: 6; /* --purple #754f5b */
+  --accent-s: 70%;
   --accent-l: 38%;
   --link-decoration: none;
   --link-decoration-hover: none;
@@ -43,7 +47,11 @@ body {
   --background-secondary: var(--light1);
   --background-secondary-alt: var(--light2);
   --background-modifier-border: var(--light2);
-  --h1-color:#844969;
-  --h2-color:#725A67;
-  --h3-color:#725A67;
+  --cursor-line-background: rgba(var(--red_x), 0.2);
+  --h1-color: var(--brown0);
+  --h2-color:var(--brown1);
+  --h3-color:var(--brown2);
+  --h4-color:var(--purple);
+  --h5-color:var(--brown2);
+  --h6-color:var(--green);
 }/*# sourceMappingURL=theme.css.map */
