@@ -10,8 +10,6 @@
 <br>
 [Colors](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#colors)
 <br>
-[Classes](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#classes)
-<br>
 [Developers](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#developers)
 <br>
 [License](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#license)
@@ -33,12 +31,6 @@ Coming soon!
 |Light theme|Dark theme|Description|
 |--|--|--|
 |--|--|--|
-
-#### Classes
-
-|Class|Description
-|--|--|
-|--|--|
 
 #### Developers
 
