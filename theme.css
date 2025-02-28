@@ -52,4 +52,11 @@ body {
   --h6-color:var(--branch5);
   --link-url: var(--purple);
   --text-normal: var(--branch0);
+  --text-highlight-bg: var(--branch0);
+  --text-highlight-fg: var(--light0);
+  --text-accent: var(--orange);
+  --text-accent-hover: var(--branch1);
+  --tag-color: var(--branch0);
+  --tag-background: var(--light2);
+  --tag-background-hover: var(--light1);
 }/*# sourceMappingURL=theme.css.map */
