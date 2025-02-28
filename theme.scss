@@ -70,8 +70,18 @@ body {
     --text-accent:                   var(--orange);
     --text-accent-hover:             var(--branch1);
 
-    --tag-color:                     var(--branch0);
+    --tag-color:                     var(--branch1);
     --tag-background:                var(--light2);
-    --tag-background-hover:          var(--light1);
+    --tag-background-hover:          var(--light0);
+
+    --titlebar-text-color-focused:   var(--red);
+
+    --inline-title-color:            var(--yellow);
+
+    h1 {
+        border-left-style: solid;
+        padding-left: 1em;   
+    }
+
 
 } 
