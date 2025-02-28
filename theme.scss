@@ -1,16 +1,19 @@
 /*Nutmeg*/
 
 :root {
---light0:rgb(234 225 215);
---light1:rgb(230 219 208);
---light2:rgb(220 205 188);
---light3:rgb(213 195 175);
+--light0:rgb(234, 225, 215);
+--light1:rgb(230, 219, 208);
+--light2:rgb(220, 205, 188);
+--light3:rgb(213, 195, 175);
 
---brown0: rgb(90, 29, 23);
---brown1: rgb(134, 44, 34);
---brown2: rgb(163, 42, 29);
+--branch0: rgb(50, 8, 3);
+--branch1: rgb(128,0,0);
+--branch2: rgb(139,0,0);
+--branch3: rgb(165,42,42);
+--branch4: rgb(178,34,34);
+--branch5:rgb(199 85 75);
 
---green:#2E5A27;
+--leaves:rgb(10 50 10);
 
 }
 
@@ -29,30 +32,19 @@ body {
     --tag-padding-x:                  .5em;
     --tag-padding-y:                  .2em;
     --tag-radius:                     .5em;
-
-    --tab-font-weight:                600;
-
-
     --checkbox-radius:                0;
-
 }
 
 .theme-light {
 
-    --color-red-rgb:                 var(--red_x);
-    --color-red:                     var(--red);
-    --color-purple-rgb:              var(--purple_x);
-    --color-purple:                  var(--purple);
-    --color-green-rgb:               var(--green_x);
-    --color-green:                   var(--green);
-    --color-cyan-rgb:                var(--frost1_x);
-    --color-cyan:                    var(--frost1);
-    --color-blue-rgb:                var(--frost3_x);
-    --color-blue:                    var(--frost3);
-    --color-yellow-rgb:              var(--yellow_x);
-    --color-yellow:                  var(--yellow);
-    --color-orange-rgb:              var(--orange_x);
-    --color-orange:                  var(--orange);
+    --color-red: rgb(174, 81, 94);
+    --color-orange: rgb(166, 89, 79);
+    --color-yellow: rgb(174, 81, 94);
+    --color-green: rgb(73, 124, 93);
+    --color-cyan: rgb(82, 116, 151);
+    --color-blue: rgb(82, 116, 151);
+    --color-purple: rgb(83, 27, 147);
+    --color-pink: rgb(174, 81, 94);
 
     --background-primary:            var(--light0);
     --background-primary-alt:        var(--light1);
@@ -60,13 +52,16 @@ body {
     --background-secondary-alt:      var(--light2);
     --background-modifier-border:    var(--light2);
 
-    --cursor-line-background:        rgba(var(--red_x), 0.2);
+    --cursor-line-background:        rgba(var(--branch2), 0.2);
 
-    --h1-color: var(--brown0);
-    --h2-color:var(--brown1);
-    --h3-color:var(--brown2);
-    --h4-color:var(--purple);
-    --h5-color:var(--brown2);
-    --h6-color:var(--green);
-    
-}
+    --h1-color: var(--branch0);
+    --h2-color:var(--branch1);
+    --h3-color:var(--branch2);
+    --h4-color:var(--branch3);
+    --h5-color:var(--branch4);
+    --h6-color:var(--branch5);
+
+    --link-url:                      var(--purple);
+    --text-normal:                   var(--branch0);
+
+} 
