@@ -1,4 +1,4 @@
-## Nutmeg 🍃
+## Smiley 🕵🏻‍♂️
 
 ### Thesis
 
