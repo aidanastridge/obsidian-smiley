@@ -1,4 +1,4 @@
-## Smiley 🕵🏻‍♂️
+## Smiley 🎪
 
 ### Thesis
 
