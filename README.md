@@ -2,6 +2,8 @@
 
 ### Thesis
 
+"There are moments which are made up of too much stuff for them to be lived at the time they occur." - George Smiley
+
 ### Index
 
 [Installation](https://github.com/aidanastridge/obsidian-rockford/blob/master/README.md#installation)
